@@ -1,0 +1,46 @@
+body {
+  font-family: Verdana, sans-serif;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Sale {
+  margin: 3px 0px;
+  font-size: 2cm;
+  background-color: black;
+  color: white;
+  font-style: initial;
+  padding: 0px 6px;
+}
+.kart {
+  width: 30%;
+  border: 2px solid grey;
+  margin: 0px 8px;
+}
+.kart1 {
+  font-size: x-large;
+  background-color: rgb(255, 1, 1);
+  color: white;
+  padding: 10px 5px;
+}
+.kart2 {
+  font-size: large;
+  color: black;
+  padding: 6px 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    display: block;
+  }
+
+  .kart {
+    width: 95%;
+  }
+
+  header{
+      text-align: center;
+  }
+}
